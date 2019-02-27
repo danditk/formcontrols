@@ -40,12 +40,15 @@ Course this tutorial we are writeing webside, in witch user creating car by sele
 	- <input type="time">								user input only for time
 	- <input type="color">								user input only for color
 	- <input type="submit">								like buton, for example to conform form and send to PHP action="xxx.php"
+	- <input type="reset">								user can clear form without refresh form
 	- <input type="button">								button witch didn't send to form
 	- <input type="color">								to choice color by user not work on every browser
 	- <input type="url">								for user websida
 	- <input type="hidden">								for example for tokens
 	- <input type="file">								to upload files by user / require enctype="multipart/form-data"
 	- accept											what file type we wont search for example image/x-png, image/gif, image/jpeg !!! user can also select all type of files !!!
+	- required											when user have to insert information to input box
+	- readonly											if we wont inform user about something
 	- <select>											to create select list
 	- <option>											to create item to select list
 	- selected											as checked to select classic option

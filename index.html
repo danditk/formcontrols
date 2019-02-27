@@ -125,15 +125,16 @@
 				
 				<div class="row">
 				
-					<label> Adres e-mail <input type="email" name="adres" placeholder="danditk@gmail.com"></label>
-					<label> Telefon <input type="tel" name="telefon"></label>
+					<label> Adres e-mail <input type="email" name="adres" placeholder="danditk@gmail.com" required></label>
+					<label> Telefon <input type="tel" name="telefon" required></label>
 				
 				</div>
 				
 				<div class="row">
 				
 					<label> Data dostawy <input type="date" name="dzien" min="2019-04-01" max="2019-06-31"></label>
-					<label> Preferowana godzina dostawy <input type="time" name="czas" min="8:00" max="18:00" step="1"></label>
+					<!-- <label> Preferowana godzina dostawy <input type="time" name="czas" min="8:00" max="18:00" step="1"></label> -->
+					<label> Preferowana godzina dostawy <input type="time" name="czas" value="15:00" step="1" readonly></label>
 				
 				</div>
 				
@@ -172,6 +173,7 @@
 					<input type="button" value="Zamawiam!">
 					<button type="button"><img src="" alt=""></button>
 					-->
+					<input type="reset" value="Wyczyść formularz">
 				</div>
 		
 			</form>		
