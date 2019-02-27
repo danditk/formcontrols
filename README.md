@@ -41,7 +41,11 @@ Course this tutorial we are writeing webside, in witch user creating car by sele
 	- <input type="color">								user input only for color
 	- <input type="submit">								like buton, for example to conform form and send to PHP action="xxx.php"
 	- <input type="button">								button witch didn't send to form
+	- <input type="color">								to choice color by user not work on every browser
+	- <input type="url">								for user websida
+	- <input type="hidden">								for example for tokens
 	- <input type="file">								to upload files by user / require enctype="multipart/form-data"
+	- accept											what file type we wont search for example image/x-png, image/gif, image/jpeg !!! user can also select all type of files !!!
 	- <select>											to create select list
 	- <option>											to create item to select list
 	- selected											as checked to select classic option
@@ -50,6 +54,8 @@ Course this tutorial we are writeing webside, in witch user creating car by sele
 	- rows / cols										to add height and weight
 	- max / minlength									set weight of marks in box
 	- <button>											in that type we can put img in button
+	- <process>											simple process bar can be customise in css info for user(max, value)
+	- <meter>											meter baar (min, max, title, value, low, high, optimum,)
 		
 .# CSS:
 

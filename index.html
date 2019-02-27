@@ -145,8 +145,26 @@
 				</div>
 				
 				<div class="row">
-					<label> Prześlij zdjęcie starego samochodu </label><input type="file" name="obraz">
+					<label> Prześlij zdjęcia swojego starego samochodu </label><input type="file" name="obraz" accept="image/x-png, image/gif, image/jpeg" multiple>
 				</div>
+				
+				<div class="row">
+					<label> Kolor lakieru <input type="color" name="kolor" value="#ff0000"></label>	
+				</div>
+				
+				<div class="row">
+					<label> Stopień realizacji zamównienia <progress max="100" value="75"></progress>	
+				</div>
+				
+				<div class="row">
+					<label> Stopień zatankowania samochodu <meter min="0" max="100" title="%" value="30" low="30" high="70" optimum="75"></meter>	
+				</div>
+				
+				<div class="row">
+					<label> Twoja stron a www <input type="url" name="witryna"></meter>	
+				</div>
+				
+				<input type="hidden" name="token" value="fweufe29834hf9234f29f3jf29f">
 				
 				<div class="row">
 					<input type="submit" value="Zamawiam!">
