@@ -18,3 +18,13 @@ h1
 	text-align: center;
 }
 
+.row
+{
+	margin: 20px 10px;
+}
+
+.col
+{
+	display: inline-block;
+	margin: 0 10px;
+}
