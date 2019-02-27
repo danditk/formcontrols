@@ -32,7 +32,7 @@
 	
 		<article>
 		
-			<form action="order.php" method="post">
+			<form action="order.php" method="post" enctype="multipart/form-data">
 				
 				<div class="row">
 					
@@ -120,11 +120,40 @@
 				</div>
 				
 				<div class="row">
-					<label> Ilość kluczyków do zamówienia <input type="number" step="1"></label>					
+					<label> Ilość kluczyków do zamówienia <input type="number" name="kluczyk" step="1"></label>		
 				</div>
 				
 				<div class="row">
-					<input type="Submit" value="Zamawiam!">					
+				
+					<label> Adres e-mail <input type="email" name="adres" placeholder="danditk@gmail.com"></label>
+					<label> Telefon <input type="tel" name="telefon"></label>
+				
+				</div>
+				
+				<div class="row">
+				
+					<label> Data dostawy <input type="date" name="dzien" min="2019-04-01" max="2019-06-31"></label>
+					<label> Preferowana godzina dostawy <input type="time" name="czas" min="8:00" max="18:00" step="1"></label>
+				
+				</div>
+				
+				<div class="row">
+				
+					<div><label for="komentarz"> Uwagi do zamówienia </label></div>
+					<textarea name="komentarz" id="komentarz" rows="4" cols="80" maxlength="25" minlength="8"></textarea>
+				
+				</div>
+				
+				<div class="row">
+					<label> Prześlij zdjęcie starego samochodu </label><input type="file" name="obraz">
+				</div>
+				
+				<div class="row">
+					<input type="submit" value="Zamawiam!">
+					<!--
+					<input type="button" value="Zamawiam!">
+					<button type="button"><img src="" alt=""></button>
+					-->
 				</div>
 		
 			</form>		

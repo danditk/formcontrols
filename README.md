@@ -31,25 +31,29 @@ Course this tutorial we are writeing webside, in witch user creating car by sele
 	- value												to send to PHP
 	- multiple											to create multiple selector list
 	- size												to show x items multiple list, next items must be scroll
-	- <input type="tel">								user input only for phone number
+	- <input type="tel">								user input only for phone number / in smartphone number keyboard
 	- <input type="email">								user input only for email
 	- <input type="date">								user input only for date
+	- min / max											can set min $ max date
 	- <input type="month">								user input only for month
 	- <input type="week">								user input only for week
 	- <input type="time">								user input only for time
 	- <input type="color">								user input only for color
 	- <input type="submit">								like buton, for example to conform form and send to PHP action="xxx.php"
 	- <input type="button">								button witch didn't send to form
+	- <input type="file">								to upload files by user / require enctype="multipart/form-data"
 	- <select>											to create select list
 	- <option>											to create item to select list
 	- selected											as checked to select classic option
-	- <select multiple>									xxxxxxxxxxx
-	- <textarea>										xxxxxxxxxxx
+	- select multiple									user can select more than one
+	- <textarea>										input box for user for comment for example
+	- rows / cols										to add height and weight
+	- max / minlength									set weight of marks in box
 	- <button>											in that type we can put img in button
 		
 .# CSS:
 
-	- xxx;
+	- resize: none;										to block resizeing box by user
 		
 .# GIT:
 	
@@ -66,3 +70,5 @@ Course this tutorial we are writeing webside, in witch user creating car by sele
 
 	- Kurs HTML odc. 6: Klasyczne kontrolki formularzy by Pasja informatyki
 	http://miroslawzelent.pl/kurs-html/klasyczne-kontrolki-formularzy/
+	- Kurs HTML odc. 7: Pozostałe kontrolki formularzy by Pasja informatyki
+	http://miroslawzelent.pl/kurs-html/pozostale-kontrolki-formularzy/

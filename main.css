@@ -28,3 +28,8 @@ h1
 	display: inline-block;
 	margin: 0 10px;
 }
+
+#komentarz
+{
+	resize: none;
+}
